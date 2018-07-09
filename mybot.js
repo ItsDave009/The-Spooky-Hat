@@ -6,7 +6,7 @@ client.on("ready", () => {
 });
 
 client.on("message", (message) => {
-  if (message.content.startsWith("status")) {
+  if (message.content.startsWith("!status")) {
     message.channel.send("Online");
   }
 });
