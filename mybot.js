@@ -7,7 +7,7 @@ client.on("ready", () => {
 
 client.on("message", (message) => {
   if (message.content.startsWith("status")) {
-    message.channel.send("going offline now.. Bye !!");
+    message.channel.send("Online");
   }
 });
 client.on("message", (message) => {
