@@ -6,13 +6,13 @@ client.on("ready", () => {
 });
 
 client.on("message", (message) => {
-  if (message.content.startsWith("!status")) {
-    message.channel.send("Online");
+  if (message.content.startsWith("!status of bots")) {
+    message.channel.send("Under Maintanance");
   }
 });
 client.on("message", (message) => {
-  if (message.content.startsWith("!ping")) {
-    message.channel.send("pong");
+  if (message.content.startsWith("!duration")) {
+    message.channel.send("30 minutes");
   }
 });
 client.login("NDY1OTAzNDYwOTIwMDY2MDQ4.DiUR8w.nLsaNVWbB7qcxrkNukKPtRcHmt0");
