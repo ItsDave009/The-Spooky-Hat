@@ -10,5 +10,9 @@ client.on("message", (message) => {
     message.channel.send("All bots are functional");
   }
 });
+
+bot.on('ready', () => {
+  client.user.setGame('Helping **ItsDave**')
+})
               
 client.login("NDY1OTAzNDYwOTIwMDY2MDQ4.DjYT6w._u4gAnOe7wMAZy3OiiMGALH3Bxk");
