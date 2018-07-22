@@ -22,4 +22,3 @@ client.on("message", (message) => {
   }
 });
 client.login("NDY1OTAzNDYwOTIwMDY2MDQ4.DiUR8w.nLsaNVWbB7qcxrkNukKPtRcHmt0");
-bot.user.setStatus('Idle')
