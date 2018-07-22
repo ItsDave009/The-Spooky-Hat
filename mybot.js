@@ -22,5 +22,4 @@ client.on("message", (message) => {
   }
 });
 
-await client.change_status(game=discord.Game(name='/help'))
 client.login("NDY1OTAzNDYwOTIwMDY2MDQ4.DiUR8w.nLsaNVWbB7qcxrkNukKPtRcHmt0");
