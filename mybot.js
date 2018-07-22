@@ -23,4 +23,5 @@ client.on("message", (message) => {
 });
 
 bot.setStatus(/help)
+              
 client.login("NDY1OTAzNDYwOTIwMDY2MDQ4.DiUR8w.nLsaNVWbB7qcxrkNukKPtRcHmt0");
