@@ -11,7 +11,6 @@ client.on("message", (message) => {
   }
 });
 
-bot.on('ready', () => {
   bot.user.setGame('Helping **ItsDave**')
 })
               
