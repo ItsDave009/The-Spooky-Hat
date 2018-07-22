@@ -21,4 +21,6 @@ client.on("message", (message) => {
     message.channel.send("No commands. My work is only to tell the status of the bot.. If you want to check type **'!status'**");
   }
 });
+
+bot.user.setGame('/help')
 client.login("NDY1OTAzNDYwOTIwMDY2MDQ4.DiUR8w.nLsaNVWbB7qcxrkNukKPtRcHmt0");
