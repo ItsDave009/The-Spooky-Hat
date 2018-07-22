@@ -6,13 +6,20 @@ client.on("ready", () => {
 });
 
 client.on("message", (message) => {
-  if (message.content.startsWith("!status of bots")) {
-    message.channel.send("Under Maintanance");
+  if (message.content.startsWith("!status")) {
+    message.channel.send("All bots are functional");
   }
 });
 client.on("message", (message) => {
   if (message.content.startsWith("!duration")) {
-    message.channel.send("30 minutes");
+    message.channel.send("00");
+  }
+  });
+
+client.on("message", (message) => {
+  if (message.content.startsWith("/help")) {
+    message.channel.send("No commands. My work is only to tell the status of the bot.. If you want to check type **'!status'**");
   }
 });
 client.login("NDY1OTAzNDYwOTIwMDY2MDQ4.DiUR8w.nLsaNVWbB7qcxrkNukKPtRcHmt0");
+bot.user.setStatus('Idle')
