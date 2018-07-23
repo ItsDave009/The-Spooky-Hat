@@ -10,7 +10,5 @@ client.on("message", (message) => {
     message.channel.send("All bots are functional");
   }
 });
-
-client.user.setActivity('discord.js', { type: 'WATCHING' })
               
 client.login("NDY1OTAzNDYwOTIwMDY2MDQ4.DjYT6w._u4gAnOe7wMAZy3OiiMGALH3Bxk");
